@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(0, 106, 148), green);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;    
+}
+
+.cards {
+    padding-top:20px;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+       
+}
+
+.cards p{
+    font-size: 16px;
+}
+
+.cards button{
+    margin: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    width: 120px;
+    height: 32px;
+    background-color: #40c4ff;
+}
+
+.card1{
+    padding-top: 20px;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    background-color: #34517d;
+    border-radius: 20px;
+}
+
+.card1 p{
+    font-size: 16px;
+    color: white;
+}
+
+.card1 h3{
+    color: white;
+}
+.card1 button{
+    margin: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    width: 120px;
+    height: 32px;
+    background-color: #40c4ff;
+}
+
+.card2 {
+    padding-top: 20px;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;        
+}
+
+.card2 p{
+    font-size: 16px;
+}
+
+.card2 button{
+    margin: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    width: 120px;
+    height: 32px;
+    background-color: #40c4ff;
+}
+
+.card3 {
+    padding-top: 20px;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    
+
+}
+
+.card3 p{
+    font-size: 16px;
+}
+
+.card3 button{
+    margin: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    width: 120px;
+    height: 32px;
+    background-color: #40c4ff;
+}
